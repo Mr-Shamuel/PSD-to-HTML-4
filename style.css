@@ -1,0 +1,102 @@
+body{ margin: 0px; padding: 0px; font-family: 'Lora', serif;}
+/* header and logo area */
+
+.header-area{border-top: 5px solid #40aed7;padding: 25px 0px;width: 100%;  }
+.logo {text-align: left;margin-top: 41px;}
+.header-area .search-form{float: right;text-align: right;padding-bottom: 30px;}
+.search-form input[type="text"]{padding: 15px 10px;background: #e9e9e9; border: 0px solid;border-radius: 5px;color: #808080;}
+.search-form input[type="submit"]{padding: 15px 10px;background: #40aed7;border: 0px solid ;border-radius: 5px;color: #f5f1f1}
+.nav-bar {width: 100%;clear: both;margin-bottom: 26px;}
+.header-area .nav-bar ul{list-style: none;margin: 0px;padding: 0px;text-align: right;}
+.nav-bar li{display: inline-block;}
+.nav-bar a{color: #666666;font-size: 13px;padding: 10px 20px;}
+.nav-bar li a:last-child{padding-right: 0px;}
+.nav-bar a:hover{color: #40aed7;}
+.con{border-bottom: 1px solid red;}
+
+/* slider area */
+.slider-area{padding: 50px 0px;}
+.slider-area img{float: left; margin-right: 25px; }
+.slider-area h2 { color: #333333;  padding: 0px 52px; margin-top: 57px; font-size: 48px;text-align: center;  font-weight: bolder; line-height: 1em;}
+.slider-area p{ color: #666666; font-size: 13px; padding: 0px 20px;}
+.slider-area a{font-size: 20px;background: #40aed7;transition: 0.5s; padding: 10px 15px; border-radius: 10px; text-decoration: none;color: white; margin-top: 10px;display: inline-block;}
+.slider-area a:hover{background: #000000}
+.galary-title{padding-bottom: 50px;}
+.galary-title h2{ text-align: center; margin: 0px auto; font-size: 36px;  color: #333333;}
+.galary-title p {text-align: center;font-size: 16px;color: #666666;padding: 0px 279px;}
+.gallery-area .galary-img img {width: 360px;height: auto;margin-bottom: 15px;}
+.full-gallery {  width: 100%; text-align:center; margin-bottom: 40px;}
+.full-gallery a{  font-size: 20px;background: #40aed7; text-align: center; transition: 0.5s; padding: 10px 15px; border-radius: 10px; text-decoration: none;color: white; margin-top: 10px; display: inline-block;}
+ .full-gallery a:hover{background: #000000}  
+
+                                         /* Footer area */
+
+.footer-area  .container{background: #1b1b1b;}
+.footer-area .child-footer{padding: 30px 0px;}
+.footer-area .child-footer h2{ color:#ffffff;font-size: 16px; padding-bottom: 25px;}
+.footer-area .child-footer h4{color: #299ac7; font-size: 15px;}
+.footer-area .child-footer p{color: #979797; font-size: 13px;}
+.footer{font-size: 13px;}
+.icon i { font-size: 40px;   padding: 0px; margin-right: 15px; color: white; border-radius: 0px; transition: 0.5s;}
+span.go {font-size: 15px;padding-left: 38px;}
+span.go a {color: #299ac7; ;}
+
+
+
+
+                                /* ================RESPONSIVE=============== */
+                                /* ===================AREA================== */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width:200px) and (max-width: 600px) { 
+    .header-area{text-align: center; padding-top: 0px;}
+    .logo {text-align: center;margin: 20px;}
+        .header-area .search-form {float:none;text-align: center;padding-bottom: 30px;}
+        .search-form input[type="text"] {margin-bottom: 15px;}
+        .header-area .nav-bar ul {text-align: center;}
+        .header-area .nav-bar ul  li a{font-size: 15px;}
+        .con{border-bottom: 1px solid black}
+        .slider-area { padding: 20px}
+        .slider-area h2, .galary-title h2 {font-size: 30px; }
+        .galary-title p {text-align: center;font-size: 12px; color: #666666;margin: 0px;padding: 20px 50px; }
+        .slider-area img{margin-bottom: 20px;}
+        .galary-title { padding-bottom: 12px;}
+        .gallery-area .galary-img img { width: auto;max-width: 50%;  margin-bottom: 15px; }
+        .footer-area{text-align: left;}
+        .icon i{font-size: 20px;}
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px)  { 
+    .header-area{text-align: center; padding-top: 0px;}
+    .logo {text-align: left;margin: 20px;}
+        .header-area .search-form {float:right;text-align: right;padding-bottom: 30px;}
+        .search-form input[type="text"] {margin-bottom: 15px;}
+        form {margin-top: -74px;}
+        .header-area .nav-bar ul {text-align: left;}
+        .con{border-bottom: 1px solid black}
+        .slider-area { padding: 20px}
+        .slider-area img{margin-bottom: 20px;}
+        .slider-area h2, .galary-title h2 {font-size: 30px; }
+        .galary-title p {text-align: center;font-size: 12px; color: #666666;margin: 0px;padding: 20px 50px; }
+        .galary-title { padding-bottom: 12px;}
+        .gallery-area .galary-img img { width: auto;max-width: 70%; margin-bottom: 15px; }
+        .footer-area{text-align: center;}
+        .icon i{font-size: 30px; margin-top: 20px;} 
+        .title.text-center.m-auto h2, p {width: 70%;float: left;text-align: klef; text-align: left; clear: both;}
+        .slider-area a {font-size: 15px;margin-top: -18px;float: right;}
+        .galary-title p {margin: 0px 78px;}
+        .gallery-area .galary-img img { width: auto; max-width: 103%;margin-bottom: 15px;}
+        .footer-area{text-align: center;}
+        .footer-area p { float: none; text-align: center; margin: 0px auto;}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width:768px){
+    .slider-area h2 { padding: 0px 27px;line-height: 4rem;}
+.gallery-area .galary-img img {width: 360px;max-width: 100%;height: auto;margin-bottom: 15px;
+}
+}
